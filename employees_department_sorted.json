@@ -1,188 +1,188 @@
 {
     "employees": [
         {
-            "firstName": "Alice",
-            "lastName": "Smith",
+            "firstname": "Alice",
+            "lastname": "Smith",
             "department": "Engineering",
             "salary": 60000
         },
         {
-            "firstName": "Kevin",
-            "lastName": "Adams",
+            "firstname": "Kevin",
+            "lastname": "Adams",
             "department": "Engineering",
             "salary": 62000
         },
         {
-            "firstName": "Emily",
-            "lastName": "Wilson",
+            "firstname": "Emily",
+            "lastname": "Wilson",
             "department": "Engineering",
             "salary": 61000
         },
         {
-            "firstName": "Benjamin",
-            "lastName": "Scott",
+            "firstname": "Benjamin",
+            "lastname": "Scott",
             "department": "Engineering",
             "salary": 63000
         },
         {
-            "firstName": "Hannah",
-            "lastName": "Clark",
+            "firstname": "Hannah",
+            "lastname": "Clark",
             "department": "Engineering",
             "salary": 60000
         },
         {
-            "firstName": "William",
-            "lastName": "Allen",
+            "firstname": "William",
+            "lastname": "Allen",
             "department": "Engineering",
             "salary": 64000
         },
         {
-            "firstName": "Jack",
-            "lastName": "Perez",
+            "firstname": "Jack",
+            "lastname": "Perez",
             "department": "Engineering",
             "salary": 65000
         },
         {
-            "firstName": "Sophia",
-            "lastName": "Roberts",
+            "firstname": "Sophia",
+            "lastname": "Roberts",
             "department": "Engineering",
             "salary": 66000
         },
         {
-            "firstName": "Ella",
-            "lastName": "Baker",
+            "firstname": "Ella",
+            "lastname": "Baker",
             "department": "Engineering",
             "salary": 67000
         },
         {
-            "firstName": "Bob",
-            "lastName": "Johnson",
+            "firstname": "Bob",
+            "lastname": "Johnson",
             "department": "Finance",
             "salary": 55000
         },
         {
-            "firstName": "Laura",
-            "lastName": "Miller",
+            "firstname": "Laura",
+            "lastname": "Miller",
             "department": "Finance",
             "salary": 56000
         },
         {
-            "firstName": "Natalie",
-            "lastName": "White",
+            "firstname": "Natalie",
+            "lastname": "White",
             "department": "Finance",
             "salary": 57000
         },
         {
-            "firstName": "Christopher",
-            "lastName": "Lopez",
+            "firstname": "Christopher",
+            "lastname": "Lopez",
             "department": "Finance",
             "salary": 58000
         },
         {
-            "firstName": "Isabella",
-            "lastName": "Lopez",
+            "firstname": "Isabella",
+            "lastname": "Lopez",
             "department": "Finance",
             "salary": 59000
         },
         {
-            "firstName": "Mary",
-            "lastName": "Williams",
+            "firstname": "Mary",
+            "lastname": "Williams",
             "department": "HR",
             "salary": 52000
         },
         {
-            "firstName": "James",
-            "lastName": "Moore",
+            "firstname": "James",
+            "lastname": "Moore",
             "department": "HR",
             "salary": 53000
         },
         {
-            "firstName": "Victoria",
-            "lastName": "King",
+            "firstname": "Victoria",
+            "lastname": "King",
             "department": "HR",
             "salary": 54000
         },
         {
-            "firstName": "Charles",
-            "lastName": "Cook",
+            "firstname": "Charles",
+            "lastname": "Cook",
             "department": "HR",
             "salary": 55000
         },
         {
-            "firstName": "Michael",
-            "lastName": "Brown",
+            "firstname": "Michael",
+            "lastname": "Brown",
             "department": "IT",
             "salary": 65000
         },
         {
-            "firstName": "Daniel",
-            "lastName": "Martinez",
+            "firstname": "Daniel",
+            "lastname": "Martinez",
             "department": "IT",
             "salary": 64000
         },
         {
-            "firstName": "Ryan",
-            "lastName": "Adams",
+            "firstname": "Ryan",
+            "lastname": "Adams",
             "department": "IT",
             "salary": 66000
         },
         {
-            "firstName": "Grace",
-            "lastName": "Adams",
+            "firstname": "Grace",
+            "lastname": "Adams",
             "department": "IT",
             "salary": 67000
         },
         {
-            "firstName": "John",
-            "lastName": "Doe",
+            "firstname": "John",
+            "lastname": "Doe",
             "department": "Marketing",
             "salary": 50000
         },
         {
-            "firstName": "Sarah",
-            "lastName": "Jones",
+            "firstname": "Sarah",
+            "lastname": "Jones",
             "department": "Marketing",
             "salary": 51000
         },
         {
-            "firstName": "Alex",
-            "lastName": "Garcia",
+            "firstname": "Alex",
+            "lastname": "Garcia",
             "department": "Marketing",
             "salary": 53000
         },
         {
-            "firstName": "Nicole",
-            "lastName": "Young",
+            "firstname": "Nicole",
+            "lastname": "Young",
             "department": "Marketing",
             "salary": 52000
         },
         {
-            "firstName": "Ethan",
-            "lastName": "Lee",
+            "firstname": "Ethan",
+            "lastname": "Lee",
             "department": "Marketing",
             "salary": 54000
         },
         {
-            "firstName": "Olivia",
-            "lastName": "Wood",
+            "firstname": "Olivia",
+            "lastname": "Wood",
             "department": "Marketing",
             "salary": 55000
         },
         {
-            "firstName": "Lily",
-            "lastName": "Evans",
+            "firstname": "Lily",
+            "lastname": "Evans",
             "department": "Marketing",
             "salary": 56000
         },
         {
-            "firstName": "Thomas",
-            "lastName": "Morris",
+            "firstname": "Thomas",
+            "lastname": "Morris",
             "department": "Marketing",
             "salary": 57000
         },
         {
-            "firstName": "Aiden",
-            "lastName": "Walker",
+            "firstname": "Aiden",
+            "lastname": "Walker",
             "department": "Marketing",
             "salary": 58000
         }
