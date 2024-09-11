@@ -1,0 +1,41 @@
+<!-- DZ19/templates/tsk5/post_list.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Блог</title>
+</head>
+<body>
+    <h1>Посты блога</h1>
+    <ul>
+        {% for post in page_obj %}
+            <li>
+                <strong>{{ post.title }}</strong><br>
+                {{ post.content|truncatewords:30 }}  <!-- Показать первые 30 слов -->
+                <br><em>{{ post.created_at }}</em>
+            </li>
+        {% empty %}
+            <li>Нет постов</li>
+        {% endfor %}
+    </ul>
+
+    <div class="pagination">
+        <span class="step-links">
+            {% if page_obj.has_previous %}
+                <a href="?page=1">&laquo; Первая</a>
+                <a href="?page={{ page_obj.previous_page_number }}">Предыдущая</a>
+            {% endif %}
+
+            <span class="current">
+                Страница {{ page_obj.number }} из {{ page_obj.paginator.num_pages }}.
+            </span>
+
+            {% if page_obj.has_next %}
+                <a href="?page={{ page_obj.next_page_number }}">Следующая</a>
+                <a href="?page={{ page_obj.paginator.num_pages }}">Последняя &raquo;</a>
+            {% endif %}
+        </span>
+    </div>
+</body>
+</html>
