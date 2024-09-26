@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Список элементов</title>
+</head>
+<body>
+    <h1>Список элементов</h1>
+
+    <label for="itemsPerPage">Элементов на странице:</label>
+    <select id="itemsPerPage" onchange="changeItemsPerPage()">
+        <option value="5" {% if items_per_page == 5 %}selected{% endif %}>5</option>
+        <option value="10" {% if items_per_page == 10 %}selected{% endif %}>10</option>
+        <option value="20" {% if items_per_page == 20 %}selected{% endif %}>20</option>
+    </select>
+
+    <div>
+        {% for item in page_obj %}
+            <div>{{ item }}</div>  <!-- Измените это на нужный атрибут, например, {{ item.name }} -->
+        {% empty %}
+            <p>Нет элементов для отображения.</p>
+        {% endfor %}
+    </div>
+
+    <div class="pagination">
+        {% if page_obj.has_previous %}
+            <a href="?page=1&items_per_page={{ items_per_page }}">1</a>
+            <a href="?page={{ page_obj.previous_page_number }}&items_per_page={{ items_per_page }}">Предыдущая</a>
+        {% endif %}
+
+        {% for num in page_obj.paginator.page_range %}
+            <a href="?page={{ num }}&items_per_page={{ items_per_page }}"
+               {% if page_obj.number == num %}style="font-weight: bold;"{% endif %}>{{ num }}</a>
+        {% endfor %}
+
+        {% if page_obj.has_next %}
+            <a href="?page={{ page_obj.next_page_number }}&items_per_page={{ items_per_page }}">Следующая</a>
+            <a href="?page={{ page_obj.paginator.num_pages }}&items_per_page={{ items_per_page }}">{{ page_obj.paginator.num_pages }}</a>
+        {% endif %}
+    </div>
+
+    <script>
+        function changeItemsPerPage() {
+            const select = document.getElementById('itemsPerPage');
+            const value = select.value;
+            const urlParams = new URLSearchParams(window.location.search);
+            urlParams.set('items_per_page', value);
+            window.location.search = urlParams.toString();
+        }
+    </script>
+</body>
+</html>
